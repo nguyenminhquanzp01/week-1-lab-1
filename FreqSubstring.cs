@@ -5,7 +5,7 @@ public class FreqSubstring
 {
   public ConcurrentDictionary<String, int> freq { get; } = new ConcurrentDictionary<string, int>();
   public char[] delimiter = { ' ', ',', ':' };
-  public string FilePath { get; set; }
+  public string FilePath { get; set; } = "example.log";
   public void doTask()
   {
     Console.WriteLine("linear");
